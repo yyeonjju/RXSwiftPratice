@@ -13,6 +13,13 @@
 		7D16E6C12C59B68200971CB7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7D16E6C02C59B68200971CB7 /* Base */; };
 		7D16E6C32C59B68400971CB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D16E6C22C59B68400971CB7 /* Assets.xcassets */; };
 		7D16E6C62C59B68400971CB7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7D16E6C52C59B68400971CB7 /* Base */; };
+		7D16E6D12C59B77C00971CB7 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16E6D02C59B77C00971CB7 /* PickerViewController.swift */; };
+		7D16E6D42C59B88500971CB7 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7D16E6D32C59B88500971CB7 /* RxCocoa */; };
+		7D16E6D62C59B88500971CB7 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D16E6D52C59B88500971CB7 /* RxSwift */; };
+		7D16E6D92C59B89000971CB7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7D16E6D82C59B89000971CB7 /* SnapKit */; };
+		7D16E6DB2C59B90400971CB7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16E6DA2C59B90400971CB7 /* TableViewController.swift */; };
+		7D16E6DD2C59B91200971CB7 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16E6DC2C59B91200971CB7 /* SwitchViewController.swift */; };
+		7D16E6DF2C59B92200971CB7 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16E6DE2C59B92200971CB7 /* TextFieldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,10 @@
 		7D16E6C22C59B68400971CB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D16E6C52C59B68400971CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D16E6C72C59B68400971CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D16E6D02C59B77C00971CB7 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		7D16E6DA2C59B90400971CB7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7D16E6DC2C59B91200971CB7 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		7D16E6DE2C59B92200971CB7 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D16E6D92C59B89000971CB7 /* SnapKit in Frameworks */,
+				7D16E6D62C59B88500971CB7 /* RxSwift in Frameworks */,
+				7D16E6D42C59B88500971CB7 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +70,7 @@
 		7D16E6B82C59B68200971CB7 /* RXSwiftPratice */ = {
 			isa = PBXGroup;
 			children = (
+				7D16E6CD2C59B6C200971CB7 /* RXCocoa */,
 				7D16E6B92C59B68200971CB7 /* AppDelegate.swift */,
 				7D16E6BB2C59B68200971CB7 /* SceneDelegate.swift */,
 				7D16E6BD2C59B68200971CB7 /* ViewController.swift */,
@@ -65,6 +80,17 @@
 				7D16E6C72C59B68400971CB7 /* Info.plist */,
 			);
 			path = RXSwiftPratice;
+			sourceTree = "<group>";
+		};
+		7D16E6CD2C59B6C200971CB7 /* RXCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				7D16E6D02C59B77C00971CB7 /* PickerViewController.swift */,
+				7D16E6DA2C59B90400971CB7 /* TableViewController.swift */,
+				7D16E6DC2C59B91200971CB7 /* SwitchViewController.swift */,
+				7D16E6DE2C59B92200971CB7 /* TextFieldViewController.swift */,
+			);
+			path = RXCocoa;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +109,11 @@
 			dependencies = (
 			);
 			name = RXSwiftPratice;
+			packageProductDependencies = (
+				7D16E6D32C59B88500971CB7 /* RxCocoa */,
+				7D16E6D52C59B88500971CB7 /* RxSwift */,
+				7D16E6D82C59B89000971CB7 /* SnapKit */,
+			);
 			productName = RXSwiftPratice;
 			productReference = 7D16E6B62C59B68200971CB7 /* RXSwiftPratice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,10 @@
 				Base,
 			);
 			mainGroup = 7D16E6AD2C59B68200971CB7;
+			packageReferences = (
+				7D16E6D22C59B88500971CB7 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				7D16E6D72C59B89000971CB7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 7D16E6B72C59B68200971CB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D16E6DD2C59B91200971CB7 /* SwitchViewController.swift in Sources */,
 				7D16E6BE2C59B68200971CB7 /* ViewController.swift in Sources */,
+				7D16E6DF2C59B92200971CB7 /* TextFieldViewController.swift in Sources */,
 				7D16E6BA2C59B68200971CB7 /* AppDelegate.swift in Sources */,
+				7D16E6D12C59B77C00971CB7 /* PickerViewController.swift in Sources */,
+				7D16E6DB2C59B90400971CB7 /* TableViewController.swift in Sources */,
 				7D16E6BC2C59B68200971CB7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +402,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D16E6D22C59B88500971CB7 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+		7D16E6D72C59B89000971CB7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D16E6D32C59B88500971CB7 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D16E6D22C59B88500971CB7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		7D16E6D52C59B88500971CB7 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D16E6D22C59B88500971CB7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		7D16E6D82C59B89000971CB7 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D16E6D72C59B89000971CB7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D16E6AE2C59B68200971CB7 /* Project object */;
 }
