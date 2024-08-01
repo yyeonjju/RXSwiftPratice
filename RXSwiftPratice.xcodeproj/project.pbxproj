@@ -20,6 +20,7 @@
 		7D16E6DB2C59B90400971CB7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16E6DA2C59B90400971CB7 /* TableViewController.swift */; };
 		7D16E6DD2C59B91200971CB7 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16E6DC2C59B91200971CB7 /* SwitchViewController.swift */; };
 		7D16E6DF2C59B92200971CB7 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16E6DE2C59B92200971CB7 /* TextFieldViewController.swift */; };
+		7D16E6E72C5B0ABD00971CB7 /* AddingNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16E6E62C5B0ABD00971CB7 /* AddingNumbersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		7D16E6DA2C59B90400971CB7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		7D16E6DC2C59B91200971CB7 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 		7D16E6DE2C59B92200971CB7 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		7D16E6E62C5B0ABD00971CB7 /* AddingNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNumbersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		7D16E6B82C59B68200971CB7 /* RXSwiftPratice */ = {
 			isa = PBXGroup;
 			children = (
+				7D16E6E32C5B0A9700971CB7 /* RXSampleProject */,
 				7D16E6CD2C59B6C200971CB7 /* RXCocoa */,
 				7D16E6B92C59B68200971CB7 /* AppDelegate.swift */,
 				7D16E6BB2C59B68200971CB7 /* SceneDelegate.swift */,
@@ -91,6 +94,14 @@
 				7D16E6DE2C59B92200971CB7 /* TextFieldViewController.swift */,
 			);
 			path = RXCocoa;
+			sourceTree = "<group>";
+		};
+		7D16E6E32C5B0A9700971CB7 /* RXSampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				7D16E6E62C5B0ABD00971CB7 /* AddingNumbersViewController.swift */,
+			);
+			path = RXSampleProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 			files = (
 				7D16E6DD2C59B91200971CB7 /* SwitchViewController.swift in Sources */,
 				7D16E6BE2C59B68200971CB7 /* ViewController.swift in Sources */,
+				7D16E6E72C5B0ABD00971CB7 /* AddingNumbersViewController.swift in Sources */,
 				7D16E6DF2C59B92200971CB7 /* TextFieldViewController.swift in Sources */,
 				7D16E6BA2C59B68200971CB7 /* AppDelegate.swift in Sources */,
 				7D16E6D12C59B77C00971CB7 /* PickerViewController.swift in Sources */,

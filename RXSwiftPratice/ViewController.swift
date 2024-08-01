@@ -13,6 +13,8 @@ enum RXPractice : String, CaseIterable{
     case switchView
     case textField
     
+    case AddingNumbers
+    
     var vc : UIViewController {
         switch self {
         case .pickerView:
@@ -23,6 +25,8 @@ enum RXPractice : String, CaseIterable{
             return SwitchViewController()
         case .textField:
             return TextFieldViewController()
+        case .AddingNumbers :
+            return AddingNumbersViewController()
         }
     }
 }
